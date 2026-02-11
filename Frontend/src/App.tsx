@@ -1,16 +1,11 @@
-import Navbar from './pages/Navbar';
-import { ThemeProvider } from "@/components//ui/theme-provider";
-
-import AppRoutes from '../Routes/Routes';
+import Navbar from "./components/ui/Navbar";
+import AppRoutes from "../Routes/Routes";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <AppRoutes />
-        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      {children}
-    </ThemeProvider>
     </div>
   );
 }

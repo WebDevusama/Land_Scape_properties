@@ -10,10 +10,11 @@ import {
   HiOutlineXMark,
 } from 'react-icons/hi2';
 import './Navbar.css';
+import { ModeToggle } from "../ui/mode-toggle";
+
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const navLinks = [
     { href: '/', label: 'Home', icon: HiOutlineHome },
     { href: '/properties', label: 'Properties', icon: HiOutlineBuildingOffice2 },
@@ -40,6 +41,7 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          <ModeToggle />
         </ul>
 
         <div className="navbar-actions">
@@ -106,6 +108,7 @@ export default function Navbar() {
             <HiOutlineUserPlus className="navbar-btn-icon" aria-hidden />
             Register
           </a>
+          <ModeToggle />
         </div>
       </div>
     </header>

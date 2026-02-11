@@ -1,12 +1,13 @@
 /* --- Variables --- */
 .navbar-header {
-  --nav-bg: #ffffff;
-  --nav-border: #e5e7eb;
-  --nav-text: #1f2937;
-  --nav-text-muted: #6b7280;
+  /* Match app theme (shadcn variables set on :root/.dark) */
+  --nav-bg: var(--background);
+  --nav-border: var(--border);
+  --nav-text: var(--foreground);
+  --nav-text-muted: var(--muted-foreground);
   --nav-accent: #0d9488;
   --nav-accent-hover: #0f766e;
-  --nav-accent-light: #ccfbf1;
+  --nav-accent-light: color-mix(in oklch, var(--nav-accent) 18%, transparent);
   --nav-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   --nav-radius: 10px;
   --nav-transition: 0.2s ease;
