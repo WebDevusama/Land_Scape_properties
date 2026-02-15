@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
-import type { Session, User } from '../integrations/superbase/client';
-import { supabase } from '../integrations/superbase/client';
+import type { Session, User } from '../lib/client';
+import { supabase } from '../lib/client';
 
 type AuthContextType = {
   session: Session | null;

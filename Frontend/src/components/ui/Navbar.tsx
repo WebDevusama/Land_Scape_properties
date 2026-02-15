@@ -9,6 +9,7 @@ import {
   HiOutlineBars3,
   HiOutlineXMark,
 } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { ModeToggle } from "../ui/mode-toggle";
 
@@ -25,34 +26,34 @@ export default function Navbar() {
   return (
     <header className="navbar-header">
       <nav className="navbar">
-        <a href="/" className="navbar-brand">
+        <Link to="/auth" className="navbar-brand">
           <span className="navbar-brand-icon">
             <HiOutlineBuildingOffice2 aria-hidden />
           </span>
           <span className="navbar-brand-text">LandScape</span>
-        </a>
+        </Link>
 
         <ul className="navbar-links">
           {navLinks.map(({ href, label, icon: Icon }) => (
             <li key={href}>
-              <a href={href} className="navbar-link">
+              <Link to={href} className="navbar-link">
                 <Icon className="navbar-link-icon" aria-hidden />
                 {label}
-              </a>
+              </Link>
             </li>
           ))}
           <ModeToggle />
         </ul>
 
         <div className="navbar-actions">
-          <a href="/login" className="navbar-btn navbar-btn-ghost">
+          <Link to="/auth" className="navbar-btn navbar-btn-ghost">
             <HiOutlineUser className="navbar-btn-icon" aria-hidden />
             Login
-          </a>
-          <a href="/register" className="navbar-btn navbar-btn-primary">
+          </Link>
+          <Link to="/auth" className="navbar-btn navbar-btn-primary">
             <HiOutlineUserPlus className="navbar-btn-icon" aria-hidden />
             Register
-          </a>
+          </Link>
         </div>
 
         <button
@@ -80,34 +81,34 @@ export default function Navbar() {
         <ul className="navbar-mobile-links">
           {navLinks.map(({ href, label, icon: Icon }) => (
             <li key={href}>
-              <a
-                href={href}
+              <Link
+                to={href}
                 className="navbar-mobile-link"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <Icon className="navbar-mobile-link-icon" aria-hidden />
                 {label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
         <div className="navbar-mobile-actions">
-          <a
-            href="/login"
+          <Link
+            to="/auth"
             className="navbar-btn navbar-btn-ghost navbar-btn-full"
             onClick={() => setMobileMenuOpen(false)}
           >
             <HiOutlineUser className="navbar-btn-icon" aria-hidden />
             Login
-          </a>
-          <a
-            href="/register"
+          </Link>
+          <Link
+            to="/auth"
             className="navbar-btn navbar-btn-primary navbar-btn-full"
             onClick={() => setMobileMenuOpen(false)}
           >
             <HiOutlineUserPlus className="navbar-btn-icon" aria-hidden />
             Register
-          </a>
+          </Link>
           <ModeToggle />
         </div>
       </div>

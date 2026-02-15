@@ -1,4 +1,4 @@
-import { supabase } from "@/integrations/superbase/client";
+import { supabase } from "@/lib/client";
 
 export type Property = {
   id: string;

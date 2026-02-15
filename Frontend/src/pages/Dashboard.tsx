@@ -1,7 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { supabase } from '@/integrations/superbase/client';
+import { supabase } from '@/lib/client';
 import { useAuth } from '@/hooks/useAuth';
-import { Navigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PropertyCard from '../components/ui/PropertyCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
@@ -58,7 +58,6 @@ export default function Dashboard() {
   });
 
   if (loading) return null;
-  if (!user) return <Navigate to="/auth" replace />;
 
   return (
     <div className="container mx-auto px-4 py-8">
