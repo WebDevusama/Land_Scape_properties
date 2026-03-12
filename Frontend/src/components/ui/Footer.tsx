@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © 2024 LuxeEstates. All rights reserved.
+            © 2026 LuxeEstates. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a
