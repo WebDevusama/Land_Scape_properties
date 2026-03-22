@@ -32,6 +32,7 @@ This project is ideal for:
 * **Node.js**
 * **Express.js**
 * **MongoDB** (Mongoose ODM)
+* super Base
 * **JWT Authentication**
 * **RESTful APIs**
 
