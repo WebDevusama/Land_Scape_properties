@@ -32,6 +32,7 @@ This project is ideal for:
 * **Node.js**
 * **Express.js**
 * **MongoDB** (Mongoose ODM)
+* super Base
 * **JWT Authentication**
 * **RESTful APIs**
 
@@ -169,11 +170,9 @@ Application will run on:
 
 ## 📸 Screenshots 🖼️
 
-![Sign_INPAGE](<Screenshot 2026-03-26 175935.png>)
-![sign up page](<Screenshot 2026-03-26 175955.png>)
-![Home](<Screenshot 2026-03-26 180151.png>)
-![alt text](<Screenshot 2026-03-26 181341.png>)---
-![alt text](<Screenshot 2026-03-26 181401.png>)
+> Add screenshots or GIFs of your application here to make the repository more attractive to recruiters.
+
+---
 
 ## 📈 SEO & Performance 🚀
 
