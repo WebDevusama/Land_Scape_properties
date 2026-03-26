@@ -170,7 +170,6 @@ Application will run on:
 
 ## 📸 Screenshots 🖼️
 
-> Add screenshots or GIFs of your application here to make the repository more attractive to recruiters.
 
 ---
 
