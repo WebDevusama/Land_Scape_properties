@@ -1,5 +1,5 @@
 # 🚀 MERN Stack Application
-A **modern, scalable, and production-ready MERN Stack application** built using **MongoDB, Express.js, React.js, and Node.js**. This project follows **industry best practices**, clean architecture, and a **recruiter-friendly code structure**, making it ideal for portfolios, startups, and real-world use cases.
+A **modern, scalable, and production-ready MERN Stack application Real estate application ** built using **MongoDB, Express.js, React.js, and Node.js**. This project follows **industry best practices**, clean architecture, and a ** recruiter-friendly code structure **, making it ideal for portfolios, startups, and real-world use cases.
 
 ---
 
@@ -9,8 +9,6 @@ A **full-stack MERN Stack web application** built with **MongoDB, Express.js, Re
 
 This project is ideal for:
 
-* 💼 **MERN Stack Developer portfolio**
-* 🏢 **Software house / startup projects**
 * 🌐 **Real estate, SaaS, e-commerce, and CRUD applications**
 
 **Primary keywords:** MERN Stack, React.js, Node.js, Express.js, MongoDB, Full Stack Developer, REST API, JWT Authentication, Responsive Web App, SEO Friendly React App.
